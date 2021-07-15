@@ -1,0 +1,125 @@
+Berapakah jumlah bandwidth maksimum yang diijinkan oleh mekanisme FDMA?
+A) 15 kHz
+B) 30 kHz
+C) 25 kHz
+ANSWER: B
+Berikut ini yang bukan termasuk penyataan yang tepat mengenai Distributed Coordination Function (DCF) adalah ...
+A) Merupakan sublayer dari lapisan MAC
+B) Menggunakan teknik p-persistent CSMA
+C) Menggunakan mekanisme Collision Detection
+ANSWER: C
+Cell splitting adalah teknik pemecahan cell menjadi beberapa ukuran cell yang lebih kecil dengan tujuan agar ...
+A) Mengoptimalkan penggunaan frekuensi
+B) Meningkatkan kapasitas jaringan
+C) Memperluas coverage area
+ANSWER: B
+Dalam Cellular Network, ukuran/besarnya cell dan berubah-berubah, bergantung kepada ...
+A) Sinyal
+B) Media Data
+C) Area
+ANSWER: C
+Di bawah ini merupakan perbedaan yang cukup signifikan antara Bluetooth Classic dengan Bluetooth Low Energy, kecuali dalam hal ...
+A) Frekuensi
+B) Data transfer rate
+C) Power Consumption
+ANSWER: A
+Di lapisan manakah letak dari regulasi cara mengakses lapisan media dan proses pengiriman data pada IEEE 802.11?
+A) MAC
+B) PHY
+C) LLC
+ANSWER: A
+Faktor utama yang membedakan antara wireless mesh network dan mobile ad hoc network yaitu ...
+A) Routing protocol
+B) Mobility of relay nodes
+C) Traffic pattern
+ANSWER: B
+Frame yang digunakan untuk mengidentifikasi tipe frame dan menyediakan informasi kontrol pada MAC Frame Format yaitu ...
+A) Frame Control
+B) Duration/Connection ID
+C) Address
+ANSWER: A
+Jeda waktu sebelum proses pengiriman frame yang dipilih secara random oleh masing-masing Sender (berupa time slot) untuk mengantisipasi adanya collison disebut sebagai...
+A) RTS : request to send
+B) ACK
+C) Backoff time
+ANSWER: C
+Jeda waktu untuk setiap pengiriman frame pada IEEE 802.11 disebut sebagai ...
+A) RTS
+B) ACK : Jeda waktu singkat untuk kegiatan yang butuh respon, untuk meningkatkan reliabilitas
+C) IFS : Inter Frame Space
+ANSWER: C
+Manakah layer yang bertanggung jawab terhadap link set-up (meliputi autentifikasi, enkripsi, dll) antar perangkat Bluetooth?
+A) Radio Frequency Protocol
+B) Link Controller Protocol
+C) Link Manager Protocol
+ANSWER: C
+Manakah yang merupakan alasan Bluetooth menggunakan metode FHSS dibandingkan DSSS?
+A) FHSS mempunyai jarak jangkauan lebih rendah
+B) Transfer data FHSS lebih rendah dibanding DSSS
+C) FHSS memiliki ketahanan terhadap noise
+ANSWER: C
+Manakah yang salah dari pernyataan berikut ini?
+A) Piconet merupakan jaringan Bluetooth yang dibentuk oleh komunikasi antar peralatan Bluetooth
+B) Scatternet merupakan gabungan dari dua atau lebih jaringan Piconet yang membentuk toplogi yang lebih kompleks
+C) Setiap piconet terdiri dari 1 buah master dan maksimal 8 slaves : Max 7 Slaves
+ANSWER: C
+Mengapa penggunaan daya pada transmisi BTS seluler dibatasi?
+A) Agar meningkatkan kapasitas jaringan
+B) Agar tidak terjadi tabrakan atau gangguan antar cell
+C) Agar jumlah cell yang digunakan dapat optimal
+ANSWER: B
+Mode Wi-Fi yang menggunakan minimal sebuah central node atau access point adalah ...
+A) Ad-hoc
+B) Inftrastruktur
+C) Central
+ANSWER: B
+Pada protokol routing AODV, pesan yang digunakan untuk melakukan penelusuran routing disebut dengan ...
+A) RREQ
+B) RREP
+C) HELLO
+ANSWER: A
+Pada spektrum elektromagnetik dalam jaringan nirkabel, jarak yang digunakan untuk gelombang radio dan gelombang mikro menggunakan jenis propagasi ....
+A) Ground wave
+B) Sky wave
+C) Line of Sight
+ANSWER: A
+Pemilihan relay pada OLSR standar didasarkan pada ..
+A) Jarak Terpendek
+B) Jumlah ketercakupan 2-hop neighbourhood
+C) Hop count terpendek
+ANSWER: B
+Perbedaan mendasar dari MANET dan Celular Network adalah ...
+A) Pada Cellular network lebih stabil
+B) Pada Cellular, penggunaan energi rendah
+C) Pada Celular terdapat station static
+ANSWER: C
+Protokol yang menggunakan mekanisme bahwa paket data akan melewati node-node yang ada dalam daftar di paket data tersebut, adalah
+A) AODV
+B) DSR
+C) OLSR
+ANSWER: B
+Sebuah mekanisme akses jamak yang mengijinkan banyak pengguna (8 slot) per kanal pada jaringan seluler disebut ...
+A) FDMA
+B) TDMA
+C) CDMA
+ANSWER: B
+Sebuah mobile station pada celular network dapat berkomunikasi dengan dua base station dalam waktu yang bersamaan atau terkoneksi dulu ke BTS tujuan kemudian memutus koneksi dari BTS asal, maka mekanisme handoff yang digunakan adalah ...
+A) Hard handover
+B) Soft handover
+C) Direct handover
+ANSWER: B
+Sequence number (ID) pada protokol DSR atau AODV digunakan untuk mencegah terjadinya ...
+A) Data duplicate
+B) Data loss
+C) Data corrupt
+ANSWER: A
+Teknik handover yang digunakan pada CDMA adalah ...
+A) Hard handover
+B) Direct handover
+C) Soft handover
+ANSWER: C
+Untuk mencegah terjadinya collison akibat hidden terminal problem, IEEE 802.11 memanfaatkan mekanisme ...
+A) DCF
+B) PCF
+C) RTS-CTS
+ANSWER: C
