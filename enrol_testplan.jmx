@@ -18,7 +18,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">${__P(loop,1)}</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">${__P(client,50)}</stringProp>
+        <stringProp name="ThreadGroup.num_threads">${__P(client,10)}</stringProp>
         <stringProp name="ThreadGroup.ramp_time">60</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
@@ -92,6 +92,16 @@
             <elementProp name="current_month" elementType="Argument">
               <stringProp name="Argument.name">current_month</stringProp>
               <stringProp name="Argument.value">${__time(M)}</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="enrolpassword" elementType="Argument">
+              <stringProp name="Argument.name">enrolpassword</stringProp>
+              <stringProp name="Argument.value">MDL-SIZE-S</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="instance" elementType="Argument">
+              <stringProp name="Argument.name">instance</stringProp>
+              <stringProp name="Argument.value">mdl1</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
@@ -360,14 +370,14 @@
               </elementProp>
               <elementProp name="instance" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">4</stringProp>
+                <stringProp name="Argument.value">${instance}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">instance</stringProp>
               </elementProp>
               <elementProp name="sesskey" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">tbt3HPaZTZ</stringProp>
+                <stringProp name="Argument.value">${sesskey2}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">sesskey</stringProp>
@@ -388,7 +398,7 @@
               </elementProp>
               <elementProp name="enrolpassword" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">MDL-SIZE-S</stringProp>
+                <stringProp name="Argument.value">${enrolpassword}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">enrolpassword</stringProp>
